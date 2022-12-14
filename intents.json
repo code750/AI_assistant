@@ -1,0 +1,29 @@
+{
+    "intents" : [
+        {
+            "tag" : "greeting",
+            "patterns" : [
+                "Hi",
+                "Hey",
+                "Hi cotana",
+                "Hey cotana"
+            ],
+            "responses" : [
+                
+                    "Hi Sir!",
+                    "What do you want to do?"
+        
+            ]
+        },
+        {
+            "tag" : "name",
+            "patterns" : [
+                "What is your name?",
+                "What should I call you?"
+            ],
+            "responses" : [
+                "My name is jarvis!"
+            ]
+        }
+    ]
+}
